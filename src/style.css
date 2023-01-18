@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: 'Merienda';
+}
+
+.navbar--list{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #14A6F2;
+    justify-content: space-between;
+    /* Change to shadows */
+    border-bottom-style: groove; 
+}
+
+.navbar--image{
+    
+    width: 60px;
+}
+
+.navbar--list > a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 5px;
+
+}
