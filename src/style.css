@@ -3,7 +3,7 @@
     font-family: 'Merienda';
 }
 
-.navbar--list{
+.navbar--container{
     display: flex;
     align-items: center;
     height: 50px;
@@ -15,15 +15,47 @@
 }
 
 .navbar--image{
-    
+    margin: 5px;
     width: 60px;
 }
 
-.navbar--list > a{
+
+/* .nav--list{
     display: flex;
-    color: white;
-    text-decoration: none;
+    
+    
     padding: 5px 30px;
     margin: 5px;
 
+} */
+.nav--list >a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
+a:hover{
+    color: #E4C25C ;
+    font-size: 23px;
+}
+
+a:active{
+    color: orangered;
+    font-size: 23px;
+}
+.slider-container > img{
+    width: 100%;
+    transition-timing-function: ease-out;
+    transition: 3s;
+}
+
+
+.slider--image{
+    width: 100%;
+    height: 90%;
+    /* background-image: url('./images/canaria/canaria1.png'); */
+    /* Maybe: cover */
+    object-fit: fill;
+    
+}
+

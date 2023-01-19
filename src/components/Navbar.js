@@ -3,11 +3,13 @@ import logo from '../images/logo.png'
 
  const Navbar = () =>{
     return(
-        <nav className="navbar--list">
+        <nav className="navbar--container">
             <img className="navbar--image" src={logo} alt='Logo'></img>
-            <a href="">Home</a>
-            <a href="">Info</a>
-            <a href="">Contacts</a>
+            <ul className="nav--list">
+                <a href="">Home</a>
+                <a href="">Info</a>
+                <a href="">Contacts</a>
+            </ul>
         </nav>
     )
 }
