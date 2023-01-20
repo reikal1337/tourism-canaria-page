@@ -1,6 +1,12 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Merienda';
+}
+
+body{
+    
 }
 
 .navbar--container{
@@ -43,19 +49,69 @@ a:active{
     color: orangered;
     font-size: 23px;
 }
-.slider-container > img{
+
+.slidercontainer{
+    display: flex;
+}
+.slidercontainer--image{
     width: 100%;
-    transition-timing-function: ease-out;
-    transition: 3s;
+    height: 70vh;
+    object-fit: fill;
 }
 
-
-.slider--image{
-    width: 100%;
-    height: 90%;
-    /* background-image: url('./images/canaria/canaria1.png'); */
-    /* Maybe: cover */
-    object-fit: fill;
+.slidercontainer--next,
+.slidercontainer--previous{
+    color: white;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    border: none;
+}
+.slidercontainer--next{
+    top: 30%;
+    left: 95%;
     
 }
+
+.slidercontainer--previous{
+    top: 30%;
+    right: 95%;
+}
+
+
+
+.slidercontainer--next:hover,
+.slidercontainer--previous:hover{
+    font-size: 30px;
+    color: #E4C25C ;
+}
+.slidercontainer--slide{
+    position: relative;
+}
+
+.slidercontainer--text{
+    position: absolute;
+    max-width: 400px;
+    max-height: 100px;
+    background-color: rgba(20, 166, 242, 0.6);
+    box-shadow: 5px 5px 10px rgba(20, 166, 242,0.5);
+    /* box-shadow: 5px 5px 10px grey; */
+    border: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 1;
+    top: 70%;
+    left: 16%;
+}
+.slidercontainer--text > h2{
+    font-size: 12px;
+    font-weight: 800;
+}
+.slidercontainer--text > p{
+    font-size: 8px;
+    font-weight: 700;
+}
+
+
 

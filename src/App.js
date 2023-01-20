@@ -2,13 +2,13 @@ import React from "react";
 import './style.css'
 
 import Navbar from './components/Navbar'
-import Slider from './components/Slider'
+import SliderContainer from './components/SliderContainer'
 
  const App = () =>{
         return(
             <>
                 <Navbar />
-                <Slider />
+                <SliderContainer />
             </>
         )
 }
