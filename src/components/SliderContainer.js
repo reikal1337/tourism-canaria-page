@@ -33,21 +33,21 @@ const SliderContainer = () => {
                 <h2>{sliderImages[0].title}</h2>
                 <p>{sliderImages[0].info}</p>
               </div >
-              <img className="slidercontainer--image" src={sliderImages[0].image}></img>
+              <img className="slidercontainer--image" src={sliderImages[0].image} alt="Canaria1"></img>
             </div>
             <div className="slidercontainer--slide">
               <div className="slidercontainer--text">
                 <h2>{sliderImages[1].title}</h2>
                 <p>{sliderImages[1].info}</p>
               </div >
-              <img className="slidercontainer--image" src={sliderImages[1].image}></img>
+              <img className="slidercontainer--image" src={sliderImages[1].image} alt="Canaria2"></img>
             </div>
             <div className="slidercontainer--slide">
               <div className="slidercontainer--text">
                 <h2>{sliderImages[2].title}</h2>
                 <p>{sliderImages[2].info}</p>
               </div >
-              <img className="slidercontainer--image" src={sliderImages[2].image}></img>
+              <img className="slidercontainer--image" src={sliderImages[2].image} alt="Canaria3"></img>
             </div>
           </Slider>
         </>

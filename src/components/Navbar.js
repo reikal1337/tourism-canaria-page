@@ -6,9 +6,9 @@ import logo from '../images/logo.png'
         <nav className="navbar--container">
             <img className="navbar--image" src={logo} alt='Logo'></img>
             <ul className="nav--list">
-                <a href="">Home</a>
-                <a href="">Info</a>
-                <a href="">Contacts</a>
+                <a href="index.html">Home</a>
+                <a href="#info">Info</a>
+                <a href="#contacts">Contacts</a>
             </ul>
         </nav>
     )
