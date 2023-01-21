@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import SliderContainer from './components/SliderContainer'
 import Info from './components/Info'
 import Contacts from './components/Contacts'
+import Whatsapp from './components/Whatsapp'
 import Footer from "./components/Footer"
 
  const App = () =>{
@@ -14,6 +15,7 @@ import Footer from "./components/Footer"
                 <SliderContainer />
                 <Info />
                 <Contacts />
+                <Whatsapp />
                 <Footer />
             </>
         )
