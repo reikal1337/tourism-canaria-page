@@ -16,7 +16,7 @@ const SliderContainer = () => {
         pauseOnFocus: true,
         pauseOnDotsHover: false,
         arrows: false,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 2000,
         slidesToShow: 1,
