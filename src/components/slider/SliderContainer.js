@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 const SliderContainer = () => {
     var settings = {
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 3000,
         pauseOnFocus: true,
         pauseOnDotsHover: false,
         arrows: false,

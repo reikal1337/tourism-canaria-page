@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const FeedbackSlider = () =>{
     var settings = {
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 3000,
         pauseOnFocus: false,
         pauseOnDotsHover: false,
         pauseOnHover: false,
@@ -19,7 +19,7 @@ const FeedbackSlider = () =>{
         speed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: true,
+        
 
       };
     return(

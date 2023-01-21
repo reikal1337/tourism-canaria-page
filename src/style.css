@@ -60,7 +60,7 @@ a:active{
     background: transparent;
     position: absolute;
     z-index: 1;
-    font-size: 25px;
+    font-size: 35px;
     border: none;
 }
 .slidercontainer--next{
@@ -76,7 +76,7 @@ a:active{
 
 .slidercontainer--next:hover,
 .slidercontainer--previous:hover{
-    font-size: 30px;
+    font-size: 40px;
     color: #E4C25C ;
 }
 .slidercontainer--slide{
@@ -187,6 +187,7 @@ a:active{
     align-items: center;
     justify-content: center;
     align-self: center;
+    border-top: outset rgba(255, 255, 255,0.3) ;
 }
 
 .feedbackslider--slide{
@@ -254,12 +255,6 @@ a:active{
     color: #E4C25C;
 }
 
-
-
-
-/* .fa-brands, .fa-solid, .fa-regular{
-    margin: 5px; 
-} */
 
 
 
