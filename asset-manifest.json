@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tourism-canaria-page/static/css/main.ee86f053.css",
+    "main.js": "/tourism-canaria-page/static/js/main.176c19a6.js",
+    "static/media/canaria3.png": "/tourism-canaria-page/static/media/canaria3.41be3ff7c9a4b299f9a0.png",
+    "static/media/canaria1.png": "/tourism-canaria-page/static/media/canaria1.5bf9cb90416bb11c0309.png",
+    "static/media/logo.png": "/tourism-canaria-page/static/media/logo.4cce4bedb36a3eedeaa4.png",
+    "static/media/canaria2.png": "/tourism-canaria-page/static/media/canaria2.4062da7ed08f246979ea.png",
+    "static/media/slick.svg": "/tourism-canaria-page/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tourism-canaria-page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tourism-canaria-page/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tourism-canaria-page/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/tourism-canaria-page/index.html",
+    "main.ee86f053.css.map": "/tourism-canaria-page/static/css/main.ee86f053.css.map",
+    "main.176c19a6.js.map": "/tourism-canaria-page/static/js/main.176c19a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee86f053.css",
+    "static/js/main.176c19a6.js"
+  ]
+}
