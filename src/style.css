@@ -11,7 +11,8 @@ body{
     font-family: 'Merienda', sans-serif, serif, monospace;
     background-color: #f7edd0;
 }
-
+/* #14A6F2 blue*/
+/* #E4C25C  sand*/
 .navbar--container{
     display: flex;
     align-items: center;
@@ -84,8 +85,8 @@ a:active{
 
 .slidercontainer--text{
     position: absolute;
-    max-width: 400px;
-    max-height: 100px;
+    max-width: 550px;
+    max-height: 200px;
     background-color: rgba(20, 166, 242, 0.6);
     box-shadow: 5px 5px 10px rgba(20, 166, 242,0.6);
     /* box-shadow: 5px 5px 10px grey; */
@@ -97,11 +98,11 @@ a:active{
     left: 16%;
 }
 .slidercontainer--text > h2{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 800;
 }
 .slidercontainer--text > p{
-    font-size: 8px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -114,21 +115,21 @@ a:active{
     border-radius: 10px;
     margin-top: 100px;
     margin-bottom: 50px;
-    max-width: 900px;
+    max-width: 1200px;
     padding: 20px;
     color: white;
     box-shadow: 5px 5px 10px grey;
 }
 .info--title{
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 .info--name{
-    font-size: 15px;
+    font-size: 22px;
     margin: 10px 0 5px 0;
 }
 .info--info{
-    font-size: 10px;
+    font-size: 15px;
     margin: 5px 0 5px 0;
 }
 
@@ -177,6 +178,58 @@ a:active{
 .contacts--phone:hover{
     color: black ;
 }
+
+.feedbackslider--container{
+    margin: 100px 0 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.feedbackslider--slide{
+    background-color: rgba(255, 255, 255,0.3);
+    max-width: 300px;
+    max-height: 400px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+}
+.feedbackslider--name{
+    font-weight: 800;
+    font-size: 20px;
+}
+.feedbackslider--feedback{
+    padding-top: 0;
+    font-size: 15px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+}
+
+.feedbackslider--slide > ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.feedbackslider--customquote{
+    font-weight: 800;
+    font-size: 25px;
+    color: grey;
+    margin-top: 10px;
+}
+.fa-star{
+    margin-bottom: 4px;
+    padding: 1px;
+    color: rgb(255, 215, 0);
+}
+
 
 .footer--copyright{
     display: flex;

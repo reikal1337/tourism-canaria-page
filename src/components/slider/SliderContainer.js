@@ -4,14 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
-
-
-
 const SliderContainer = () => {
     var settings = {
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         pauseOnFocus: true,
         pauseOnDotsHover: false,

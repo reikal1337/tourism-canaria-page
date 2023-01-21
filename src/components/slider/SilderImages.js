@@ -1,6 +1,6 @@
-import canaria1 from '../images/canaria/canaria1.png'
-import canaria2 from '../images/canaria/canaria2.png'
-import canaria3 from '../images/canaria/canaria3.png'
+import canaria1 from '../../images/canaria/canaria1.png'
+import canaria2 from '../../images/canaria/canaria2.png'
+import canaria3 from '../../images/canaria/canaria3.png'
 
 const sliderImages = [{
     title: 'Transportation',

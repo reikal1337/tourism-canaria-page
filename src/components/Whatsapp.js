@@ -26,7 +26,7 @@ const Whatsapp = () =>{
 			headerTitle="Donatas"
 			headerCaption="Online"
 			bodyBgColor="#bbb"
-			chatPersonName="Support"
+			chatPersonName="Donatas"
 			chatMessage={<>Hi there 👋 <br /><br /> What would be your destination and date ?</>}
 			footerBgColor="#999"
 			btnBgColor="#25D366"
