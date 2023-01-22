@@ -36,8 +36,12 @@ body{
     font-size: 20px;
 }
 .nav--list > a:hover{
+    
     color: #E4C25C ;
     font-size: 23px;
+}
+a:hover{
+    transition: 0.3s;
 }
 
 a:active{
@@ -48,6 +52,7 @@ a:active{
 .slidercontainer{
     display: flex;
 }
+
 .slidercontainer--image{
     width: 100%;
     height: 90vh;
@@ -106,7 +111,7 @@ a:active{
     font-weight: 700;
 }
 
-.info--container{
+.info--container {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -180,25 +185,23 @@ a:active{
 }
 
 .feedbackslider--container{
+    display: flex;
+    justify-content: space-evenly;
     margin: 100px 0 50px 0;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    border-top: outset rgba(255, 255, 255,0.3) ;
+    border-top: outset rgba(255, 255, 255,0.3);
 }
 
 .feedbackslider--slide{
     background-color: rgba(255, 255, 255,0.3);
     max-width: 300px;
     max-height: 400px;
-    margin: 25px;
+    margin: 25px 150px 25px 150px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
     padding: 20px;
-}
+ }
+ 
 .feedbackslider--name{
     font-weight: 800;
     font-size: 20px;
@@ -209,14 +212,13 @@ a:active{
 }
 .end{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: 5px;
 }
 
 .feedbackslider--slide > ul{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .feedbackslider--customquote{

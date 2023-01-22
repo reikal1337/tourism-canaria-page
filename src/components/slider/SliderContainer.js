@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const SliderContainer = () => {
     var settings = {
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         pauseOnFocus: true,
         pauseOnDotsHover: false,
         arrows: false,
@@ -15,13 +15,13 @@ const SliderContainer = () => {
         infinite: true,
         speed: 2000,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       };
     const slider = React.useRef(null);
     return(
         <>
-          <button className="slidercontainer--previous" onClick={() => slider?.current?.slickPrev()}><i class="fa-solid fa-arrow-left"></i></button>
-          <button className="slidercontainer--next" onClick={() => slider?.current?.slickNext()}><i class="fa-solid fa-arrow-right"></i></button>
+          <button className="slidercontainer--previous" onClick={() => slider?.current?.slickPrev()} alt="Previous slide"><i class="fa-solid fa-arrow-left"></i></button>
+          <button className="slidercontainer--next" onClick={() => slider?.current?.slickNext()} alt="Next slide"><i class="fa-solid fa-arrow-right"></i></button>
           <Slider className="slidercontainer" ref={slider} {...settings}>
             <div className="slidercontainer--slide">
               <div className="slidercontainer--text">

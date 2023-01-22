@@ -1,8 +1,15 @@
 import React from "react";
+import { useInView } from 'react-intersection-observer';
+
+
 
 const Info = () =>{
+    const {refInfo, infoInView,entry} = useInView({
+        threshold: 0,
+    });
+    
     return (
-        <section className="info--container">
+        <section className={`info--container ${infoInView ? "showing" : "hidden"}`} ref={refInfo}>
             <h1 className="info--title" id="info">Information</h1>
             <h2 className="info--name">Transportation</h2>
             <p className="info--info">
