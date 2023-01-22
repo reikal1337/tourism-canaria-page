@@ -20,8 +20,8 @@ const SliderContainer = () => {
     const slider = React.useRef(null);
     return(
         <>
-          <button className="slidercontainer--previous" onClick={() => slider?.current?.slickPrev()} alt="Previous slide"><i class="fa-solid fa-arrow-left"></i></button>
-          <button className="slidercontainer--next" onClick={() => slider?.current?.slickNext()} alt="Next slide"><i class="fa-solid fa-arrow-right"></i></button>
+          <button className="slidercontainer--previous" onClick={() => slider?.current?.slickPrev()} alt="Previous slide"><i className="fa-solid fa-arrow-left"></i></button>
+          <button className="slidercontainer--next" onClick={() => slider?.current?.slickNext()} alt="Next slide"><i className="fa-solid fa-arrow-right"></i></button>
           <Slider className="slidercontainer" ref={slider} {...settings}>
             <div className="slidercontainer--slide">
               <div className="slidercontainer--text">

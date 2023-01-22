@@ -111,7 +111,7 @@ a:active{
     font-weight: 700;
 }
 
-.info--container {
+.info--container{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -124,6 +124,18 @@ a:active{
     padding: 20px;
     color: white;
     box-shadow: 5px 5px 10px grey;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-80%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
 }
 .info--title{
     font-size: 30px;
@@ -257,7 +269,14 @@ a:active{
     color: #E4C25C;
 }
 
-
+/* @media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+    .show{
+        transition: none;
+    }
+} */
 
 
 
