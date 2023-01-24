@@ -5,17 +5,20 @@ import canaria3 from '../../images/canaria/canaria3.png'
 const sliderImages = [{
     title: 'Transportation',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed dui eu nisi porta vestibulum. Donec lacinia, nisi ut vestibulum porta, nulla nibh tincidunt metus, eget condimentum ex odio non tortor. Sed at ornare ligula, molestie sagittis tortor. Integer nec mauris erat. Nam sollicitudin ipsum eros, sed feugiat orci semper sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas',
-    image: canaria1
+    image: canaria1,
+    alt: 'Image of canaria'
 },
 {
     title: 'Tourism',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed dui eu nisi porta vestibulum. Donec lacinia, nisi ut vestibulum porta, nulla nibh tincidunt metus, eget condimentum ex odio non tortor. Sed at ornare ligula, molestie sagittis tortor. Integer nec mauris erat. Nam sollicitudin ipsum eros, sed feugiat orci semper sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas',
-    image: canaria2
+    image: canaria2,
+    alt: 'Image of canaria'
 },
 {
     title: 'Information',
     info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed dui eu nisi porta vestibulum. Donec lacinia, nisi ut vestibulum porta, nulla nibh tincidunt metus, eget condimentum ex odio non tortor. Sed at ornare ligula, molestie sagittis tortor. Integer nec mauris erat. Nam sollicitudin ipsum eros, sed feugiat orci semper sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas',
-    image: canaria3
+    image: canaria3,
+    alt: 'Image of canaria'
 }]
 
 export default sliderImages

@@ -1,9 +1,11 @@
 import React from "react";
-import feedbacks from "./feedbackObject";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import feedbackObjects from "./feedbackObjects";
+import FeedbackSlide from "./FeedbackSlide"
 
 
 const FeedbackSlider = () =>{
@@ -24,72 +26,30 @@ const FeedbackSlider = () =>{
       };
     return(
         <Slider className="feedbackslider--container" {...settings}>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[0].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[0].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[1].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[1].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[2].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[2].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[3].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[3].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[4].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[4].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
-            <div className="feedbackslider--slide">
-                <h5 className="feedbackslider--name">{feedbacks[5].name}</h5>
-                <p className="feedbackslider--feedback"><p className="feedbackslider--customquote">“</p>&nbsp;&nbsp;{feedbacks[5].feedback}<p className="feedbackslider--customquote end">”</p></p>
-                <ul>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                </ul>
-            </div>
+            <FeedbackSlide 
+                name={feedbackObjects[0].name}
+                feedback={feedbackObjects[0].feedback}
+            />
+            <FeedbackSlide 
+                name={feedbackObjects[1].name}
+                feedback={feedbackObjects[1].feedback}
+            />
+            <FeedbackSlide 
+                name={feedbackObjects[2].name}
+                feedback={feedbackObjects[2].feedback}
+            />
+            <FeedbackSlide 
+                name={feedbackObjects[3].name}
+                feedback={feedbackObjects[3].feedback}
+            />
+            <FeedbackSlide 
+                name={feedbackObjects[4].name}
+                feedback={feedbackObjects[4].feedback}
+            />
+            <FeedbackSlide 
+                name={feedbackObjects[0].name}
+                feedback={feedbackObjects[0].feedback}
+            />
         </Slider>
     )
 }
