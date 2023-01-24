@@ -24,32 +24,15 @@ const FeedbackSlider = () =>{
         
         
       };
+      const slides = feedbackObjects.map( feedbackData => {
+        return <FeedbackSlide 
+            name={feedbackData.name}
+            feedback={feedbackData.feedback}
+        />
+      })
     return(
         <Slider className="feedbackslider--container" {...settings}>
-            <FeedbackSlide 
-                name={feedbackObjects[0].name}
-                feedback={feedbackObjects[0].feedback}
-            />
-            <FeedbackSlide 
-                name={feedbackObjects[1].name}
-                feedback={feedbackObjects[1].feedback}
-            />
-            <FeedbackSlide 
-                name={feedbackObjects[2].name}
-                feedback={feedbackObjects[2].feedback}
-            />
-            <FeedbackSlide 
-                name={feedbackObjects[3].name}
-                feedback={feedbackObjects[3].feedback}
-            />
-            <FeedbackSlide 
-                name={feedbackObjects[4].name}
-                feedback={feedbackObjects[4].feedback}
-            />
-            <FeedbackSlide 
-                name={feedbackObjects[0].name}
-                feedback={feedbackObjects[0].feedback}
-            />
+            {slides}
         </Slider>
     )
 }
