@@ -25,7 +25,8 @@ const FeedbackSlider = () =>{
         
       };
       const slides = feedbackObjects.map( feedbackData => {
-        return <FeedbackSlide 
+        return <FeedbackSlide
+            key={feedbackData.id}
             name={feedbackData.name}
             feedback={feedbackData.feedback}
         />

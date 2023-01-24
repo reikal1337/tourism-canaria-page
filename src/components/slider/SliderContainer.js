@@ -24,10 +24,8 @@ const SliderContainer = () => {
 
     const slides = slideObjcts.map(slideData => {
       return <Slide
-        title={slideData.title}
-        info={slideData.info}
-        image={slideData.image}
-        alt={slideData.alt}
+          key={slideData.id}
+          {...slideData}
       />
     }) 
 

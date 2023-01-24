@@ -1,8 +1,6 @@
 import React from "react";
 
 const Slide = ({title, info, image, alt}) =>{
-
-    
     return(
         <div className="slidercontainer--slide">
               <div className="slidercontainer--text">
