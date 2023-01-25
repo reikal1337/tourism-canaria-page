@@ -9,7 +9,7 @@ import FeedbackSlide from "./FeedbackSlide"
 
 
 const FeedbackSlider = () =>{
-    var settings = {
+    const settings = {
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnFocus: false,
@@ -21,6 +21,24 @@ const FeedbackSlider = () =>{
         speed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
+        responsive: [
+            {
+            breakpoint: 1540,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+              }
+            },
+            {
+                breakpoint: 1210,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                  }
+                }
+        ]
         
         
       };

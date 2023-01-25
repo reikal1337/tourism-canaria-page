@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 const Info = () =>{
     
     const [refInfo, inViewInfo] = useInView({
-        threshold: 0.5,
+        threshold: 0.5
     });
     return (
         <section className={`info--container ${inViewInfo ? "show" : "hidden"}`} ref={refInfo}>

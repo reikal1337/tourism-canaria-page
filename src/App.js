@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import SliderContainer from './components/slider/SliderContainer'
 import Info from './components/Info'
 import Contacts from './components/Contacts'
-import Whatsapp from './components/Whatsapp'
 import Footer from "./components/Footer"
 import FeedbackSlider from "./components/feedback/FeedbackSlider";
 
@@ -14,9 +13,10 @@ import FeedbackSlider from "./components/feedback/FeedbackSlider";
             <>
                 <Navbar />
                 <SliderContainer />
+                <div className="backgroundsvg wavestop"></div>
                 <Info />
                 <Contacts />
-                <Whatsapp />
+                <div className="backgroundsvg wavesbottom"></div>
                 <FeedbackSlider />
                 <Footer />
             </>
