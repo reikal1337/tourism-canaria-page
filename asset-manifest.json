@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/tourism-canaria-page/static/css/main.ee86f053.css",
-    "main.js": "/tourism-canaria-page/static/js/main.d89a6ba9.js",
-    "static/media/canaria3.png": "/tourism-canaria-page/static/media/canaria3.4cf4de26d4f015b9fdf0.png",
-    "static/media/canaria2.png": "/tourism-canaria-page/static/media/canaria2.601ac29dd78876f8deed.png",
-    "static/media/canaria1.png": "/tourism-canaria-page/static/media/canaria1.bb126d64fbe5776b5f80.png",
+    "main.css": "/tourism-canaria-page/static/css/main.534c35a6.css",
+    "main.js": "/tourism-canaria-page/static/js/main.984dbe4d.js",
+    "static/media/canaria3.png": "/tourism-canaria-page/static/media/canaria3.48768046fa580ae85e96.png",
+    "static/media/canaria2.png": "/tourism-canaria-page/static/media/canaria2.2fed5ee0aed102b1cf1f.png",
+    "static/media/canaria1.png": "/tourism-canaria-page/static/media/canaria1.e6fd89b826a86898a27d.png",
     "static/media/logo.png": "/tourism-canaria-page/static/media/logo.4cce4bedb36a3eedeaa4.png",
+    "static/media/wavesbottom.svg": "/tourism-canaria-page/static/media/wavesbottom.123ccadaf9d7786fb956.svg",
+    "static/media/wavestop.svg": "/tourism-canaria-page/static/media/wavestop.bda0367f103419a97698.svg",
     "static/media/slick.svg": "/tourism-canaria-page/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/tourism-canaria-page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/tourism-canaria-page/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-canaria-page/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tourism-canaria-page/index.html",
-    "main.ee86f053.css.map": "/tourism-canaria-page/static/css/main.ee86f053.css.map",
-    "main.d89a6ba9.js.map": "/tourism-canaria-page/static/js/main.d89a6ba9.js.map"
+    "main.534c35a6.css.map": "/tourism-canaria-page/static/css/main.534c35a6.css.map",
+    "main.984dbe4d.js.map": "/tourism-canaria-page/static/js/main.984dbe4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee86f053.css",
-    "static/js/main.d89a6ba9.js"
+    "static/css/main.534c35a6.css",
+    "static/js/main.984dbe4d.js"
   ]
 }
